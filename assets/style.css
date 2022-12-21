@@ -1,34 +1,131 @@
+html {
+  font-size: 100%;
+  line-height: 1.5rem;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
 body {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.4;
-
-
+  margin: auto;
+  padding: 0;
+  min-height: 100%;
+  min-width: 100%;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+img,
+image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2%;
-    background-color: lightgray;
-    color: darkolivegreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  background-color: lightgray;
+  color: darkolivegreen;
 }
 
-h1 {font-size: 175%;}
-
-h2 { margin: 3%;
-    font-size: 200%;
+h1 {
+  font-size: 200%;
 }
-nav ul { display: flex;
-justify-content: space-between;
-min-width: 275px;}
+
+h2 {
+  font-size: 300%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 275px;
+}
 
 nav a {
-    color: darkolivegreen;
-    font-weight: bold;
-    text-shadow: none ;
+  color: darkolivegreen;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+body {
+  background-image: url("./img/IMG_4640.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#about {
+  padding: 30px;
+}
+
+.img-info-container {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+.about-info {
+  width: 80%;
+  max-width: 800px;
+  background-color: rgb(255, 255, 255, .5);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.works-info {
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.contact-info{
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+
 
 }
-aside {
-    width: 30%;
+
+
+.horiseon-image {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
 }
+
+.other-image {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+

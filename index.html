@@ -1,47 +1,113 @@
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/reset.css">
-    <link rel="stylesheet" href="./assets/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/reset.style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Peter Shaughnessy Portfolio</title>
   </head>
   <body>
-  
-      <header class="top header">
-        <h1>Peter Shaughnessy</h1>
-        <nav>
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Featured Work</a></li>
-          </ul>
-        </nav>
-        </header>
-        <aside>
-          <img src="Placeholder" alt="Avatar">
-        </aside>
-        
-      </main>
-      <section>
-        <article>
-          <h2>
-            Placeholder
-          </h2>
-          <nav>
-            <p>
-              Text placeholder
-            </p>
-          </nav>
-        </article>
-     
+    <header class="top header">
+      <h1>Peter Shaughnessy</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div class="img-info-container">
+          <img
+            class="profile-pic"
+            src="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
+            alt="profile pic"
+          />
+          <p class="about-info">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Voluptatum, hic. Saepe voluptas fugit esse, veniam aspernatur,
+            dolore est facere vel, iure quis tenetur quia nam quod? Nostrum, hic
+            ullam harum praesentium accusamus cumque obcaecati inventore eos
+            reprehenderit error, soluta eligendi eaque? Tenetur tempora cum
+            incidunt? Quidem sequi suscipit maiores officiis nihil, a
+            reiciendis. Rerum fugit, assumenda nostrum labore totam cum
+            perspiciatis quod illo vitae, veritatis facere. Inventore odit nulla
+            repellendus veritatis deserunt aliquid eligendi eveniet quidem
+            similique doloribus ipsam suscipit temporibus ipsum a fuga, non
+            sapiente quisquam, illo voluptate excepturi consectetur voluptas
+            vel! Culpa, temporibus repudiandae consectetur nesciunt molestiae
+            vel?
+          </p>
+        </div>
       </section>
-  
 
+      <section id="works">
+        <h2>Works</h2>
+        <a href="https://prnessy23.github.io/Marketing-refactoring/">
+          <img
+            class="horiseon-image"
+            src="./assets/img/horiseon.png"
+            alt="horiseon"
+          />
+        </a>
 
-    
+        <div class="project-container">
+          <div>
+            <a href="https://prnessy23.github.io/Marketing-refactoring/">
+              <img
+                class="other-image"
+                src="./assets/img/online-reputation-management.jpg"
+                alt="horiseon"
+              />
+            </a>
+          </div>
+
+          <div>
+            <a href="https://prnessy23.github.io/Marketing-refactoring/">
+              <img
+                class="other-image"
+                src="./assets/img/search-engine-optimization.jpg"
+                alt="horiseon"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="contact-container">
+        <h2>Contact Me</h2>
+        <div>
+          <h5>First Name</h5>
+          <input type="text" placeholder="First Name">
+        </div>
+        <div>
+          <h5>Last Name</h5>
+          <input type="text" placeholder="Last Name">
+        </div>
+        <div>
+          <h5>Email</h5>
+          <input type="text" placeholder="Email">
+
+        </div>
+        <div>
+          <h5>Description</h5>
+          <textarea placeholder="Description"></textarea>
+        </div>
+        <button>SUBMIT</button>
+      </section>
+    </main>
+
+    <footer>
+      <section>
+        <h2>footer</h2>
+      </section>
+    </footer>
   </body>
-  </html>
-  <footer>placeholder</footer>
+</html>
