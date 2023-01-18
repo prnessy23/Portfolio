@@ -14,12 +14,11 @@ ___
    (cd Bootcamp-Berkeley/,  cd Portfolio, code .) 
 4. Created an Assets folder within Portfolio and began the git add -A, git commit -m "Created Asset folder", git push origin main 
    process that I would use throughout the entire process.
-5. Created a file within Assets folder titled index.HTML. Added using the git flow described in step 4.
-6. Created another folder titled CSS and added two additional files (style.css and reset.css) to this using prescribed git flow     
+5. Created another folder titled CSS and added two additional files (style.css and reset.css) to this using prescribed git flow     
    procedure.
-7. Added an image file.
-8. Proceeded to amend the given HTML code to make it more efficient by removing extraneous div tags and better structured for screenreaders by adding alt tags to the images on the site.
-9. 
+6. Added an image file.
+7. Proceeded to amend the given HTML code to make it more efficient by removing extraneous div tags and better structured for screenreaders by adding alt tags to the images on the site.
+8. 
 
 
 ![alt Text](./assets/img/horiseon.png)
