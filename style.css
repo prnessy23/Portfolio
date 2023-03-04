@@ -1,5 +1,4 @@
-/* Header styles */
-header {
+.header {
   background: url('../images/header-image.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
@@ -58,6 +57,61 @@ section#portfolio {
 .project p {
   font-size: 1.5rem;
 }
+section#contact {
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-field-required {
+  color: #f00;
+  margin-left: 0.5rem;
+  display: none;
+}
+
+.form-field-error {
+  color: #f00;
+  margin-left: 0.5rem;
+  display: none;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+ 
+}
+/* Contact styles */
 section#contact {
   padding: 4rem 0;
   background-color: #fff;
