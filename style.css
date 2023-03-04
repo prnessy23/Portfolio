@@ -1,10 +1,11 @@
-.header {
+header {
   background: url('../images/header-image.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 2rem;
 }
 
 .logo h1 {
@@ -14,14 +15,32 @@
 }
 
 nav {
-  margin: 2rem 0 0 0;
+  margin: 0;
 }
 
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
 }
+
+nav li {
+  margin-left: 2rem;
+}
+
+nav a {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #0069d9;
+}
+
 /* Portfolio styles */
 section#portfolio {
   padding: 4rem 0;
@@ -57,62 +76,8 @@ section#portfolio {
 .project p {
   font-size: 1.5rem;
 }
-section#contact {
-  padding: 4rem 0;
-  background-color: #fff;
-}
-
-.contact-container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-#contact-form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.form-field {
-  width: 100%;
-  margin-bottom: 1rem;
-}
-
-label {
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.form-field-required {
-  color: #f00;
-  margin-left: 0.5rem;
-  display: none;
-}
-
-.form-field-error {
-  color: #f00;
-  margin-left: 0.5rem;
-  display: none;
-}
-
-button[type="submit"] {
-  background-color: #007bff;
-  color: #fff;
-  padding: 0.5rem 1rem;
- 
-}
 /* Contact styles */
-section#contact {
+footer {
   padding: 4rem 0;
   background-color: #fff;
 }
@@ -120,9 +85,6 @@ section#contact {
 .contact-container {
   max-width: 800px;
   margin: 0 auto;
-}
-
-#contact-form {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -164,5 +126,104 @@ button[type="submit"] {
   background-color: #007bff;
   color: #fff;
   padding: 0.5rem 1rem;
- 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
