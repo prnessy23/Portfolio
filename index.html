@@ -3,56 +3,59 @@
   <head>
     <meta charset="UTF-8">
     <title>Peter Shaughnessy - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  </head>
+ </head>
   <body>
-      <header>
-          <div class="logo">
+      <header id="header">
+          <div id="logo">
+            <img src="./assets/image/Image.jpeg" alt="image">
             <h1>Peter Shaughnessy</h1>
           </div>
-          <nav>
+          <nav id="nav">
             <ul>
-              <li><a href="#about-me">About Me</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#resume">Resume</a></li>
-            </ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><label for ="show-contact-box">Contact</label></li>
+              </ul>
           </nav>
       </header>
-      
-    <main>
-      <section id="portfolio">
-        <div class="portfolio-container">
+       <section id="main">
+        <div id="about">
+        <h2>About</h2>
+        <p>Hi, I'm Peter Shaughnessy, this is my first attempt at a portfolio showcasing some of my projects. I'll look to add additional projects and more functionality as I progress in my journey to becoming a full-stack web developer!</p>
+
+        <div id="portfolio">
           <h2>Portfolio</h2>
           <div class="project">
-            <a href="project-1.html"><img src="images/portfolio-image-1.jpg" alt="Project 1"></a>
-            <h3>Project 1</h3>
-            <p>Description of project 1.</p>
+            <a href="https://github.com/prnessy23/The-Daily-Schedule"><img src="https://raw.githubusercontent.com/prnessy23/The-Daily-Schedule/main/Assets/Images/Screenshot%202023-01-09%20at%205.12.52%20PM.png"
+             alt="Project 1"></a>
+            <!-- <h3>Project 1</h3> -->
+            <p>The Daily Schedule</p>
           </div>
           <div class="project">
-            <a href="project-2.html"><img src="images/portfolio-image-2.jpg" alt="Project 2"></a>
-            <h3>Project 2</h3>
-            <p>Description of project 2.</p>
+            <a href="https://github.com/prnessy23/Nibble-Nabble"><img src="https://raw.githubusercontent.com/prnessy23/Nibble-Nabble/main/assets/images/homepageimage.png" alt="Project 2"></a>
+            <!-- <h3>Project 2</h3> -->
+            <p>Nibble Nabble</p>
           </div>
           <div class="project">
-            <a href="project-3.html"><img src="images/portfolio-image-3.jpg" alt="Project 3"></a>
-            <h3>Project 3</h3>
-            <p>Description of project 3.</p>
+            <a href="https://github.com/prnessy23/Weather-app"><img src="https://raw.githubusercontent.com/prnessy23/Weather-app/main/Screenshot%202023-01-11%20at%2011.13.30%20PM.png"
+             alt="Project 3"></a>
+            <!-- <h3>Project 3</h3> -->
+            <p>The Weather</p>
           </div>
         </div>
       </section>
-       </main>
-    <footer>
-      <section id="contact">
-        <div class="contact-container">
-          <h2>Contact</h2>
+        <footer>
+            <h2>Contact</h2>
           <form id="contact-form" method="post" action="submit-form.php">
             <div class="form-field">
               <label for="name">Name</label>
               <input type="text" id="name" name="name" required>
               <span class="form-field-required">*Required</span>
             </div>
+            
             <div class="form-field">
               <label for="email">Email</label>
               <input type="email" id="email" name="email" required>
@@ -67,9 +70,11 @@
             <button type="submit">Submit</button>
           </form>
         </div>
-      </section>
+        </div>
+   </footer>
+  </section>
       
-    </footer>
-    <script src="js/app.js"></script>
+    
+
   </body>
 </html>
